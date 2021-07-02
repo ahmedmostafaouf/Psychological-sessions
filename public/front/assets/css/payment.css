@@ -1,0 +1,266 @@
+/**************************** Patient page  ********************************************/
+section#patient{
+    padding-top: 120px;
+    margin-bottom: 70px;
+}
+.patient-title h2{
+    color: #4d4d4f;
+    margin-bottom: 10px;
+}
+.patient-title h2 span{
+    font-size: 15px;
+}
+.patient-title p{
+    color: #4d4d4f;
+    margin-bottom: 20px;
+}
+
+.patient-form{
+    padding: 15px;
+    background-color: #fff;
+}
+.patient-form form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.patient-form label{
+    color: #4d4d4f;
+    font-weight: bold;
+}
+
+.patient-form input,.patient-form textarea, .patient-gender select{
+    padding: 10px;
+    margin: 15px 0;
+    width: 95%;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline-color: #6195ff;
+}
+.patient-form input[type="number"]::-webkit-outer-spin-button,
+.patient-form input[type="number"]::-webkit-inner-spin-button,
+.patient-form-right input[type="number"]::-webkit-outer-spin-button,
+.patient-form-right input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.patient-form a{
+    text-decoration: none;
+}
+.patient-form input[type="submit"]{
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 10px 28px 10px auto;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #6195ff;
+    border-radius: 25px;
+    background-color: #6195ff;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.patient-form input[type="submit"]:hover{
+    opacity: 0.8;
+}
+/************************************ footer Section ****************************************/
+footer{
+    height: auto;
+    margin-top: 20px;
+    background-color: #000;
+}
+footer .call-us{
+    display: flex;
+    color: #fff;
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
+.call-us .call-us-items{
+    width: 50%;
+    padding-left: 35px;
+    position: relative;
+}
+.call-us .call-us-items.active{
+    padding-left: 43px;
+}
+
+.call-us-items i{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #6195ff;
+}
+
+.call-us-items p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.call-us-items span{
+    color: #999;
+}
+
+/* footer */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer-items{
+    width: 30%;
+    color: #fff;
+    position: relative;
+}
+.footer-items span.line{
+    display: block;
+    margin: 10px 0;
+    width: 50px;
+    height: 3px;
+    background: #6195ff;
+}
+
+.footer-items h3{
+    font-size: 25px;
+}
+.footer-items h3 span{
+    font-size: 35px;
+    margin: 0 2px;
+    color: #6699ff;
+}
+
+.footer-items p{
+    margin-top: 30px;
+    color: #999;
+    line-height: 1.5;
+}
+
+.footer-items span.social{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.footer-items i.icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.footer-items i.facebook{
+    background-color: #3b5999;
+}
+.footer-items i.twitter{
+    background-color: #55acee;
+}
+.footer-items i.google{
+    background-color: #cd201f;
+}
+
+/* links  */
+.footer-items h4{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 16px;
+}
+
+.footer-items-links{
+    display: flex;
+}
+.footer-items-links .links.part1{
+    width: 150px;
+}
+
+.footer-items-links .links a{
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #999;
+}
+.footer-items-links .links a:hover{
+    text-decoration: underline;
+    color: #6195ff;
+}
+
+/*mail*/
+.footer-items .footer-links{
+    display: flex;
+}
+.footer-items input{
+    margin-top: 30px;
+    padding: 10px;
+    width: 210px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background: rgba(92, 92, 92, 0.59);
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-items a i.send{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #6195ff;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.5s;
+}
+
+.footer-items i.icon:hover,
+.footer-items a i.send:hover{
+    opacity: 0.7;
+}
+
+/* copyright */
+.copy{
+    height: 40px;
+    background: #161616f0;
+    text-align: center;
+}
+.copy p{
+    padding-top: 13px;
+    color: #fff;
+}
+/************************************ Media Quary ****************************************/
+@media (max-width:992px){
+    .patient-form form{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-items{
+        width: 100%;
+    }
+    .footer-items i.icon{
+        margin-bottom: 30px;
+    }
+    .footer-items input{
+        margin-bottom: 30px;
+    }
+    .copy{
+        height: 50px;
+        text-align: left;
+    }
+    .copy p{
+        padding: 13px 0 0 10px;
+    }
+}

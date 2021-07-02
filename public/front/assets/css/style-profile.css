@@ -1,0 +1,368 @@
+section.profile{
+    padding-top: 100px;
+}
+
+.profile-content{
+    border: 1px solid #99999952;
+    background-color: #fff;
+    display: flex;
+}
+.profile-title{
+    width: 30%;
+    text-align: center;
+}
+
+.profile-title img{
+    width: 160px;
+    height: 155px;
+    margin: 50px 50px 0 50px;
+    border-radius: 50%;
+}
+
+.profile-title h3.prfile-name{
+    margin: 10px 0;
+    color: #6195ff;
+    font-size: 17px;
+}
+
+.profile-title p{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(128, 127, 127);
+}
+
+.profile-title i.active{
+    margin-top: 15px;
+    color: #ffc107;
+}
+
+.profile-star span{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(128, 127, 127);
+}
+
+.profile-title span.profile-session{
+    color: #999;
+    font-size: 14px;
+}
+
+.profile-title span.profile-session i{
+    margin: 15px 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #6195ff;
+}
+/********* profile-info ***********/
+.profile-info-caption{
+    margin-top: 50px;
+    color: #6195ff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile-info-desc{
+    margin: 10px 0;
+    color: #666669;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.profile-info-desc span{
+    font-weight: bold;
+    color: #555;
+}
+
+.profile-info a button{
+    width: 130px;
+    height: 40px;
+    margin-left: 76%;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #6195ff;
+    background-color: #6195ff;
+    color: #fff;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+}
+.profile-info a button:hover{
+    opacity: 0.8;
+}
+/******************************* profile-review Section ****************************************/
+section.profile-review{
+    padding-top: 50px;
+}
+
+.profile-review-content{
+    background-color: #fff;
+    padding: 15px;
+}
+
+/*******.profile-review-cv*******/
+.tab-pane{
+    padding-top: 10px;
+}
+
+.tab-pane h4{
+    font-size: 18px;
+    color: #555;
+    margin: 30px 0;
+}
+
+.profile-review-cv-content{
+    margin-left: 20px;
+    padding: 20px 0;
+    line-height: 1.5;
+}
+
+.tab-pane strong{
+    color: #666669;
+}
+.tab-pane p{
+    color: #666669;
+}
+.tab-pane span{
+    color: #607d8b;
+    font-size: 13px;
+}
+/******* Links *******/
+.profile-review-links{
+    margin-left: 20px;
+}
+
+.profile-review-links a i{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.profile-review-links a i:hover{
+    background-color: #6195ff;
+    color: #fff;
+    border: 1px solid #6195ff;
+}
+
+.box{
+    height: 190px;
+    border: 1px solid #99999959;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.box .icons-revivew i{
+    color: #ffc107;
+}
+/************************************ footer Section ****************************************/
+footer{
+    height: auto;
+    margin-top: 20px;
+    background-color: #000;
+}
+footer .call-us{
+    display: flex;
+    color: #fff;
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
+.call-us .call-us-items{
+    width: 50%;
+    padding-left: 35px;
+    position: relative;
+}
+.call-us .call-us-items.active{
+    padding-left: 43px;
+}
+
+.call-us-items i{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #6195ff;
+}
+
+.call-us-items p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.call-us-items span{
+    color: #999;
+}
+
+/* footer */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer-items{
+    width: 30%;
+    color: #fff;
+    position: relative;
+}
+.footer-items span.line{
+    display: block;
+    margin: 10px 0;
+    width: 50px;
+    height: 3px;
+    background: #6195ff;
+}
+
+.footer-items h3{
+    font-size: 25px;
+}
+.footer-items h3 span{
+    font-size: 35px;
+    margin: 0 2px;
+    color: #6699ff;
+}
+
+.footer-items p{
+    margin-top: 30px;
+    color: #999;
+    line-height: 1.5;
+}
+
+.footer-items span.social{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.footer-items i.icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.footer-items i.facebook{
+    background-color: #3b5999;
+}
+.footer-items i.twitter{
+    background-color: #55acee;
+}
+.footer-items i.google{
+    background-color: #cd201f;
+}
+
+/* links  */
+.footer-items h4{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 16px;
+}
+
+.footer-items-links{
+    display: flex;
+}
+.footer-items-links .links.part1{
+    width: 150px;
+}
+
+.footer-items-links .links a{
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #999;
+}
+.footer-items-links .links a:hover{
+    text-decoration: underline;
+    color: #6195ff;
+}
+
+/*mail*/
+.footer-items .footer-links{
+    display: flex;
+}
+.footer-items input{
+    margin-top: 30px;
+    padding: 10px;
+    width: 210px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background: rgba(92, 92, 92, 0.59);
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-items a i.send{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #6195ff;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.5s;
+}
+
+.footer-items i.icon:hover,
+.footer-items a i.send:hover{
+    opacity: 0.7;
+}
+
+/* copyright */
+.copy{
+    height: 40px;
+    background: #161616f0;
+    text-align: center;
+}
+.copy p{
+    padding-top: 13px;
+    color: #fff;
+}
+
+/************************************ Media Quary ****************************************/
+@media (max-width:992px){
+    .profile-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .profile-title{
+        width: 100%;
+        text-align: center;
+    }
+
+    /********* profile-info ***********/
+    .profile-info-caption, .profile-info-desc{
+        padding: 0 20px;
+    }
+    .profile-info a button{
+        margin: 20px 0 20px 70%;
+    }
+
+    .footer-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-items{
+        width: 100%;
+    }
+    .footer-items i.icon{
+        margin-bottom: 30px;
+    }
+    .footer-items input{
+        margin-bottom: 30px;
+    }
+}

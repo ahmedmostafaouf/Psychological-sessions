@@ -1,0 +1,98 @@
+body {
+    height: 50vh;
+    background-image: url(../images/pic2.jpg);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #9c27b0c9;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    margin: 200px auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+    margin: 15px 0;
+    padding-top: 40px;
+    color: #8C55AA;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un,
+.pass {
+    width: 76%;
+    margin: 0 0 27px 46px ;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(38, 50, 56);
+    background: rgba(136, 126, 126, 0.04);
+    border: none;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    outline: none;
+}
+
+form {
+    padding-top: 40px;
+}
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.submit {
+    margin-left: 35%;
+    padding: 10px 40px;
+    font-size: 13px;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    border: 0;
+    border-radius: 5em;
+    cursor: pointer;
+}
+.submit:hover{
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    margin: 10px 35px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.reg{
+    margin: 10px  35px;
+    padding-top: 10px;
+    text-align: center;
+}
+.auth-wrapper {
+    min-height: 100vh;
+    position: relative; }
+.auth-wrapper .auth-box {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+    width: 90%;
+    margin: 10% 0; }
+.auth-wrapper .auth-box .logo {
+    text-align: center; }

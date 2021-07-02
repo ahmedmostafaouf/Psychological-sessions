@@ -1,0 +1,132 @@
+body {
+    height: 50vh;
+    background-image: url(../images/pic1.jpg);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #9c27b0c9;
+    text-decoration: none
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 380px;
+    height: 610px;
+    margin: 90px auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    overflow: hidden;
+    position: relative;
+}
+
+.header{
+    width: 400px;
+    height: 80px;
+    background-color: #f7f7f7;
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.header h2{
+    position: absolute;
+    margin: 30px ;
+}
+
+form {
+    padding-top: 40px;
+}
+
+.un,
+.email,
+.pass {
+    width: 85%;
+    margin: 0 30px 27px 27px;
+    padding: 10px 13px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    color: rgb(38, 50, 56);
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    border-radius: 20px;
+    outline: none;
+}
+
+.the-input input:focus{
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.move{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.date-name , .gender-name{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.second input,.third input{
+    margin: 15px 0;
+}
+
+.first input[type="date"]{
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.second #gender-female{
+    margin-left: 10px;
+}
+
+.third{
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin-left: 35%;
+    padding: 10px 40px;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    border-radius: 5em;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+.submit:hover{
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+form .text{
+    margin: 35px 0 0 33px;
+}
+.auth-wrapper {
+    min-height: 100vh;
+    position: relative; }
+.auth-wrapper .auth-box {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+    width: 90%;
+    margin: 10% 0; }
+.auth-wrapper .auth-box .logo {
+    text-align: center; }
+.custom-radio .custom-control-label::before {
+    border-radius: 50%; }
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e"); }
+
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
+    background-color: rgba(116, 96, 238, 0.5); }
+
+

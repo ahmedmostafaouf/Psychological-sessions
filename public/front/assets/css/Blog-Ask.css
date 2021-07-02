@@ -1,0 +1,464 @@
+/************************************ Blog-Ask Page ****************************************/
+section.ask{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.ask .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ask-content{
+    position: absolute;
+    top: 13%;
+    width: 40%;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #607d8b;
+}
+
+.ask-item h2{
+    color: #395988;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.ask-item p{
+    line-height: 1.6;
+    color: #395988;
+    margin-bottom: 15px;
+}
+
+.ask-item span{
+    color: #607d8b;
+    font-weight: bold;
+}
+
+.form select{
+    display: block;
+    width: 70%;
+    margin-bottom: 10px;
+    padding: .375rem .50rem;
+    color: #395988;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.form select option{
+    padding: 20px;
+}
+
+.form textarea{
+    resize: none;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: .50rem;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form textarea:focus{
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.ask-content .btn button{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #607d8b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+
+.ask-content .btn button:hover{
+    background-color: transparent;
+    border: 1px solid #607d8b;
+    color: #607d8b;
+}
+
+section.how-work{
+    width: 100%;
+    height: 245px;
+    background-color: #607d8b;
+}
+
+.how-work-content{
+    padding: 40px 0;
+    display: flex;
+}
+
+.how-work-items{
+    width: 23%;
+    color: #fff;
+    text-align: center;
+}
+
+.how-work-items p{
+    font-weight: bold;
+}
+
+.how-work-items-img{
+    height: 80%;
+    margin: auto;
+}
+
+.how-work-items-img img{
+    width: 50%;
+    height: 70%;
+    padding: 15px;
+    filter: grayscale(100%);
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.how-work-items:first-child{
+    text-align: left;
+    width: 30%;
+    padding-right: 50px;
+}
+
+.how-work-items:first-child h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.how-work-items:first-child p{
+    line-height: 1.5;
+}
+
+.how-work-items:first-child span{
+    color: #395988;
+    font-weight: bold;
+}
+
+/*** FAQ Section ***/
+.FAQ{
+    padding-bottom: 50px;
+}
+
+.FAQ .FAQ-facts-title{
+    display: flex;
+}
+
+.FAQ .FAQ-title, .FAQ .facts-title{
+    width: 50%;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.FAQ .FAQ-title{
+    font-size: 35px;
+    color: #607d8b;
+    background-color: #607d8b40;
+    padding-left: 1%;
+}
+.FAQ .facts-title{
+    padding: 0 2%;
+    color: #fff;
+    padding: 0 2%;
+    background-color: #395988e6;
+    font-size: 26px;
+}
+
+.FAQ-content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+.FAQ-content p{
+    color: #395988;
+    line-height: 1.6;
+}
+.FAQ-content h3{
+    color: #607d8b;
+}
+.FAQ-item, .FAQ-content .facts{
+    width: 48%;
+    padding: 0 15px;
+}
+
+.FAQ-item .FAQ-desc h3, .facts h3{
+    margin: 20px 0 15px 0;
+    font-size: x-large;
+}
+/************************************ footer Section ****************************************/
+footer{
+    height: auto;
+    margin-top: 20px;
+    background-color: #000;
+}
+footer .call-us{
+    display: flex;
+    color: #fff;
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
+.call-us .call-us-items{
+    width: 50%;
+    padding-left: 35px;
+    position: relative;
+}
+.call-us .call-us-items.active{
+    padding-left: 43px;
+}
+
+.call-us-items i{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #6195ff;
+}
+
+.call-us-items p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.call-us-items span{
+    color: #999;
+}
+
+/* footer */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer-items{
+    width: 30%;
+    color: #fff;
+    position: relative;
+}
+.footer-items span.line{
+    display: block;
+    margin: 10px 0;
+    width: 50px;
+    height: 3px;
+    background: #6195ff;
+}
+
+.footer-items h3{
+    font-size: 25px;
+}
+.footer-items h3 span{
+    font-size: 35px;
+    margin: 0 2px;
+    color: #6699ff;
+}
+
+.footer-items p{
+    margin-top: 30px;
+    color: #999;
+    line-height: 1.5;
+}
+
+.footer-items span.social{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.footer-items i.icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.footer-items i.facebook{
+    background-color: #3b5999;
+}
+.footer-items i.twitter{
+    background-color: #55acee;
+}
+.footer-items i.google{
+    background-color: #cd201f;
+}
+
+/* links  */
+.footer-items h4{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 16px;
+}
+
+.footer-items-links{
+    display: flex;
+}
+.footer-items-links .links.part1{
+    width: 150px;
+}
+
+.footer-items-links .links a{
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #999;
+}
+.footer-items-links .links a:hover{
+    text-decoration: underline;
+    color: #6195ff;
+}
+
+/*mail*/
+.footer-items .footer-links{
+    display: flex;
+}
+.footer-items input{
+    margin-top: 30px;
+    padding: 10px;
+    width: 210px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background: rgba(92, 92, 92, 0.59);
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-items a i.send{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #6195ff;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.5s;
+}
+.footer-items i.icon:hover,
+.footer-items a i.send:hover{
+    opacity: 0.7;
+}
+
+/* copyright */
+.copy{
+    height: 40px;
+    background: #161616f0;
+    text-align: center;
+}
+.copy p{
+    padding-top: 13px;
+    color: #fff;
+}
+
+/************************************ Media Quary ****************************************/
+@media (max-width:767px){
+    .ask-content{
+        width: 85%;
+    }
+    section.how-work{
+        height: auto;
+    }
+
+    .how-work-content{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .how-work-items{
+        width: 80%;
+    }
+    .how-work-items:first-child{
+        text-align: center;
+        width: 100%;
+        margin: 100px 0 40px 0;
+    }
+    .FAQ{
+        padding-bottom: 30px;
+    }
+
+    .FAQ .FAQ-facts-title{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .FAQ .FAQ-title, .FAQ .facts-title{
+        width: 50%;
+    }
+
+    .FAQ .FAQ-title{
+        font-size: 35px;
+        color: #607d8b;
+        background-color: #607d8b40;
+        padding-left: 1%;
+    }
+    .FAQ .facts-title{
+        padding: 0 2%;
+        color: #fff;
+        padding: 0 2%;
+        background-color: #395988e6;
+        font-size: 26px;
+    }
+
+    .FAQ-content{
+        display: flex;
+        justify-content: space-between;
+        line-height: 1.3;
+    }
+    .FAQ-content p{
+        color: #395988;
+        line-height: 1.6;
+    }
+    .FAQ-content h3{
+        color: #607d8b;
+    }
+    .FAQ-item{
+        width: 48%;
+    }
+
+    .FAQ-item .FAQ-desc h3, .facts h3{
+        margin: 20px 0 15px 0;
+        font-size: x-large;
+    }
+
+    .FAQ-content .facts{
+        width: 48%;
+    }
+    .footer-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-items{
+        width: 100%;
+    }
+
+    .footer-items i.icon{
+        margin-bottom: 30px;
+    }
+    .footer-items input{
+        margin-bottom: 30px;
+    }
+    .copy{
+        height: 45px;
+        text-align: left;
+    }
+    .copy p{
+        padding: 13px 0 0 10px;
+    }
+}

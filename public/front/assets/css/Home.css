@@ -1,0 +1,786 @@
+
+/****************************** Home Section *********************************/
+section#home{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home-content{
+    position: absolute;
+    top: 30%;
+}
+
+.home-title{
+    color: #fff;
+    font-size: 25px;
+}
+.home-title span{
+    color: #6699ff;
+    font-size: 27px;
+}
+
+.home-book{
+    display: block;
+    margin: 35px 0;
+    color: #fff;
+    font-size: 20px;
+}
+.home-book i{
+    font-size: 33px;
+    color: #6195ff;
+    margin: 0 5px;
+}
+
+.home-content button{
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #6195ff;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.home-content button.btn-sign{
+    background-color: #6195ff;
+    margin-right: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.home-content button.btn-sign:hover{
+    background-color: transparent;
+}
+
+.home-content button.btn-log:hover{
+    background-color: #6195ff;
+}
+/****************************** appointment Section *********************************/
+.appointment-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#appointment .appointment-make{
+    width: 48%;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+}
+
+.appointment-make h2, .appointment-call h2{
+    margin-top: 30px;
+}
+
+.appointment-make span.line, .appointment-call span.line{
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    height: 4px;
+    background-color: #6195ff;
+}
+
+.appointment-make select, .appointment-make input,
+.appointment-call select, .appointment-call input{
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    height: 35px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline-color: #6195ff;
+}
+
+.appointment-make select, .appointment-call select{
+    padding-left: 5px;
+}
+.appointment-make input, .appointment-call input{
+    padding: 10px;
+}
+
+.appointment-make a button, .appointment-call a button{
+    width: 130px;
+    height: 40px;
+    margin: 15px 0;
+    background-color: #6195ff;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.appointment-make a button:hover, .appointment-call a button:hover{
+    background-color: transparent;
+    color: #6195ff;
+    border: 1px solid #6195ff;
+}
+
+#appointment .appointment-call{
+    width: 48%;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+}
+/****************************** About Section *********************************/
+section#about{
+    background-color: #f4f6f9;
+}
+.about-title{
+    width: 18%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.about-title h2{
+    font-size: 30px;
+}
+.about-title span.line{
+    display: block;
+    width: 36%;
+    height: 4px;
+    background: #6195ff;
+    margin: 7px 0 0 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.about-content .about-items1{
+    background-image: url(../images/about/about-bg1.jpg);
+    background-size: cover;
+}
+.about-items1 .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-items1, .about-items2, .about-items3{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.about-items1 h3{
+    padding-top: 30px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.about-items2 h3, .about-items3 h3{
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    transition: all 0.5s ease-in-out;
+}
+.about-items2:hover h3, .about-items3:hover h3{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.about-items1 span{
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 58%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f8f9fab0;
+}
+.about-items1 button{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 17px 0;
+    margin-left: 65%;
+    width: 100px;
+    height: 40px;
+    background-color: #6195ff;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.about-items1 button:hover{
+    opacity: 0.7;
+}
+
+.about-items2 p, .about-items3 p{
+    padding: 20px;
+    margin-top: 15px;
+    letter-spacing: 0.7px;
+    line-height: 2;
+    color: #686868;
+    transition: color 0.5s ease-in-out;
+}
+.about-items2:hover p, .about-items3:hover p{
+    color: #fff;
+}
+
+.tb-effect{
+    position: relative;
+}
+.tb-effect::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: #333;
+    z-index: -1; /*يبقي ورا الكلام*/
+    transition: all 0.5s ease-in-out;
+}
+.tb-effect:hover::after{
+    height: 100%;
+}
+.about-items2.tb-effect,.about-items3.tb-effect {
+    z-index: 1;
+}
+/****************************** how-book Section *********************************/
+section#how-book{
+    background: #f9f9f9;
+}
+.how-book-title{
+    width: 39%;
+    margin: auto;
+}
+.how-book-title h2{
+    font-size: 35px;
+    padding-top: 45px;
+    margin-bottom: 20px;
+}
+.how-book-title h2 p{
+    display: inline-block;
+    transition: all 0.5s;
+}
+.how-book-title span{
+    font-size: 40px;
+    margin: 0 2px;
+    color: #6699ff;
+}
+.how-book-title h2 span.line{
+    display: block;
+    margin: 7px auto;
+    width: 80px;
+    height: 4px;
+    background-color: #6195ff;
+}
+.how-book-title:hover h2 p{
+    transform: translateY(-10px);
+}
+
+#how-book .how-book-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#how-book .how-book-items{
+    margin-top: 25px;
+}
+
+#how-book .how-book-items i{
+    display: block;
+    font-size: 50px;
+    color: #6195ff;
+}
+#how-book .how-book-items span{
+    display: block;
+    margin: 20px 0;
+    font-size: 30px;
+    color: #6195ff;
+}
+#how-book .how-book-items p{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 45px;
+}
+/********************************* Service Section ******************************/
+section.Service{
+    background-color: #f9f9f9;
+}
+
+.Service-item{
+    width: 50%;
+    float: left;
+}
+.Service-item .caption{
+    width: 43%;
+}
+.Service-item .caption h2{
+    font-size: 30px;
+}
+.Service-item .caption span.line{
+    display: block;
+    width: 25%;
+    height: 4px;
+    background: #6195ff;
+    margin: 7px 0 20px 1px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Service-item p{
+    color: #4d4d4f;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.Service-item ul.Service-list{
+    list-style: none;
+}
+.Service-item ul.Service-list li{
+    margin: 15px 0;
+}
+.Service-item ul.Service-list li i{
+    color: #6195ff;
+    border: 1px solid #6195ff;
+    border-radius: 50%;
+    padding: 5px;
+}
+.Service-item.image{
+    padding-left: 30px;
+    margin-top: 35px;
+}
+.Service-item .Service-img img{
+    width: 100%;
+}
+
+.Service-item ul.Service-boltts{
+    text-align: center;
+}
+.Service-item ul.Service-boltts li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px 5px;
+    border-radius: 50%;
+    background-color: #999;
+}
+.Service-item ul.Service-boltts li.active{
+    background-color: #6195ff;
+}
+.Service-item ul.Service-boltts li:hover{
+    background-color: #6195ff;
+}
+/****************************** team Section *********************************/
+section#team{
+    margin-top: 50px;
+}
+.team-title{
+    width: 28%;
+}
+.team-title h3{
+    font-size: 30px;
+}
+.team-title span.line{
+    display: block;
+    width: 30%;
+    height: 4px;
+    margin: 7px 0 20px 3px;
+    background: #6195ff;
+    transition: all 0.5s ease-in-out;
+}
+
+#team .team-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-content .team-items{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.team-content .team-items img{
+    width: 180px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.team-content .team-items span{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #999;
+    transition: all 0.5s;
+}
+.team-content .team-items:hover span{
+    color: #000;
+    font-weight: bold;
+}
+
+.team-content .team-items p{
+    color: #999;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.team-content .team-items a button{
+    width: 130px;
+    height: 40px;
+    margin: 15px 0;
+    background-color: #6195ff;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.team-content .team-items a button:hover{
+    background-color: transparent;
+    color: #6195ff;
+    border: 1px solid #6195ff;
+}
+
+/********************************** testimonial Section ******************************/
+.testimonial-title {
+    width: 22%;
+    padding-top: 70px;
+    margin: 30px auto;
+}
+.testimonial-title h2{
+    font-size: 30px;
+}
+.testimonial-title span.line{
+    display: block;
+    width: 29%;
+    height: 4px;
+    margin: 7px 0 20px 3px;
+    background: #6195ff;
+    transition: all 0.5s ease-in-out;
+}
+
+section#testimonial{
+    background: url(../images/testimonial-bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+#testimonial .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.testimonial-content{
+    display: flex;
+}
+
+.testimonial-item{
+    display: flex;
+    padding: 58px 20px;
+    color: #fff;
+}
+
+.testimonial-item p{
+    background-color: #607d8b;
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px 10px;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+    border-radius: 10px;
+    position: relative;
+}
+.testimonial-item p::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    border-right: 10px solid #607d8b;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.testimonial-img{
+    text-align: center;
+}
+
+.testimonial-img img{
+    border-radius: 50%;
+}
+.testimonial-img h4{
+    width: 85px;
+}
+
+/************************************ footer Section ****************************************/
+footer{
+    height: auto;
+    margin-top: 20px;
+    background-color: #000;
+}
+footer .call-us{
+    display: flex;
+    color: #fff;
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
+.call-us .call-us-items{
+    width: 50%;
+    padding-left: 35px;
+    position: relative;
+}
+.call-us .call-us-items.active{
+    padding-left: 43px;
+}
+
+.call-us-items i{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #6195ff;
+}
+
+.call-us-items p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.call-us-items span{
+    color: #999;
+}
+
+/* footer */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer-items{
+    width: 30%;
+    color: #fff;
+    position: relative;
+}
+.footer-items span.line{
+    display: block;
+    margin: 10px 0;
+    width: 50px;
+    height: 3px;
+    background: #6195ff;
+}
+
+.footer-items h3{
+    font-size: 25px;
+}
+.footer-items h3 span{
+    font-size: 35px;
+    margin: 0 2px;
+    color: #6699ff;
+}
+
+.footer-items p{
+    margin-top: 30px;
+    color: #999;
+    line-height: 1.5;
+}
+
+.footer-items span.social{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.footer-items i.icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.footer-items i.facebook{
+    background-color: #3b5999;
+}
+.footer-items i.twitter{
+    background-color: #55acee;
+}
+.footer-items i.google{
+    background-color: #cd201f;
+}
+
+/* links  */
+.footer-items h4{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 16px;
+}
+
+.footer-items-links{
+    display: flex;
+}
+.footer-items-links .links.part1{
+    width: 150px;
+}
+
+.footer-items-links .links a{
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #999;
+}
+.footer-items-links .links a:hover{
+    text-decoration: underline;
+    color: #6195ff;
+}
+
+/*mail*/
+.footer-items .footer-links{
+    display: flex;
+}
+.footer-items input{
+    margin-top: 30px;
+    padding: 10px;
+    width: 210px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background: rgba(92, 92, 92, 0.59);
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-items a i.send{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #6195ff;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.5s;
+}
+
+.footer-items i.icon:hover,
+.footer-items a i.send:hover{
+    opacity: 0.7;
+}
+
+/* copyright */
+.copy{
+    height: 40px;
+    background: #161616f0;
+    text-align: center;
+}
+.copy p{
+    padding-top: 13px;
+    color: #fff;
+}
+
+/************************************ Media Quary ****************************************/
+
+@media (max-width:767px){
+    .about-title{
+        width: 47%;
+    }
+    .about-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .how-book-title{
+        width: 100%;
+        text-align: center;
+    }
+    .how-book-title:hover h2 p{
+        transform: translateY(0);
+    }
+
+    #how-book .how-book-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .how-book-items{
+        width: 100%;
+    }
+
+    .Service-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Service-item{
+        width: 100%;
+    }
+    .Service-item .caption{
+        width: 65%;
+    }
+    .Service-item .caption span.line{
+        width: 17%;
+    }
+    .Service-item ul.Service-boltts{
+        margin-bottom: 30px;
+    }
+
+    .team-title{
+        width: 80%;
+    }
+    .team-title span.line{
+        width: 27%;
+    }
+    #team .team-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .team-content .team-items{
+        width: 100%;
+    }
+
+    .testimonial-title {
+        width: 60%;
+    }
+    .testimonial-title span.line{
+        width: 27%;
+    }
+    section#testimonial{
+        height: auto;
+    }
+    .testimonial-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .appointment-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #appointment .appointment-make,
+    #appointment .appointment-call{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer-content{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-items{
+        width: 100%;
+    }
+
+    .footer-items i.icon{
+        margin-bottom: 30px;
+    }
+
+    .footer-items input{
+        margin-bottom: 30px;
+    }
+}
